@@ -1,18 +1,18 @@
 .feedbackButton {
-    background-color:aliceblue;
-    margin: 0px 5px;
-    border: none;
-    border-radius: 15%;
-    padding: 5px;
-    box-shadow: 2px -1px 2px 0px #0000001f, 1px 2px 2px 0px #00000029,
+  background-color: aliceblue;
+  margin: 0px 5px;
+  border: none;
+  border-radius: 15%;
+  padding: 5px;
+  box-shadow: 2px -1px 2px 0px #0000001f, 1px 2px 2px 0px #00000029,
     0px 2px 2px 0px #0000000f, 0px 1px 1px 0px #0000001f;
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .feedbackButton:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .feedbackButton:active {
-    background-color: royalblue;
+  background-color: royalblue;
 }
