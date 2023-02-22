@@ -9,7 +9,7 @@ export class FeedbackButton extends Component {
       <button
         onClick={changeHandler}
         type="button"
-        data-option={option.toLowerCase()}
+        id={option.toLowerCase()}
         className={css.feedbackButton}
       >
         {option}

@@ -11,10 +11,10 @@ export class App extends Component {
     neutral: 0,
     bad: 0,
   };
-  addGrade = event => {
-    const gradeType = event.currentTarget.dataset.option;
+  addGrade = option => {
+    console.log(option)
     this.setState({
-      [gradeType]: this.state[gradeType] + 1,
+      [option]: this.state[option] + 1,
     });
   };
   render() {

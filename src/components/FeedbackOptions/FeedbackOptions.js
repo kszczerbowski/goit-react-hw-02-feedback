@@ -5,16 +5,15 @@ import PropTypes from 'prop-types';
 export class FeedbackOptions extends Component {
   render() {
     const { options, onLeaveFeedback } = this.props;
-    return Object.values(options).map(value => {
+    return Object.values(options).map(option => {
       return (
         <button
-          key={value}
-          onClick={onLeaveFeedback}
+          key={option}
+          onClick={() => onLeaveFeedback(option.toLowerCase())}
           type="button"
-          data-option={value.toLowerCase()}
           className={css.feedbackButton}
         >
-          {value}
+          {option}
         </button>
       );
     });
